@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seguridad Informática</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="modulos/styles.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar fixed-top navbar-expand-lg" id="navbar" style="background-color: #001f3f;">
+    <div class="container-fluid">
+      <a class="navbar-brand text-white" href="#">Seguridad Informática</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#locations">Ley general de protección de datos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#team">Ley de propiedad industrial</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#lfda">Ley federal de derechos de autor</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#cpf">Código penal federal</a>
+          </li>
+          <!-- Dropdown Más -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Más
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#estadares">Estándares del manejo de la información.</a></li>
+                <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#avisoModal">Aviso de privacidad</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  
+
+  <!-- Hero Section -->
+  <section id="hero" class="d-flex flex-column align-items-center justify-content-center">
+    <div class="hero-content text-center text-white">
+      <h1 class="display-1 fw-bold">Seguridad Informática</h1>
+      <p class="lead">
+        La seguridad informática es el conjunto de prácticas, tecnologías y políticas diseñadas para proteger sistemas, <br> redes y datos de accesos no autorizados, ataques, daños o robos. Su objetivo principal es garantizar la confidencialidad, integridad <br> y disponibilidad de la información.
+      </p>
+    </div>
+</section>
+
+  <!-- Ley general de protección de datos personales de México Section -->
+  <section id="locations" class="py-5 text-center bg-white text-dark">
+    <div class="container">
+      <h2 class="display-4 mb-4">Ley general de protección de datos personales de México.</h2>
+      <p class="lead">En Spartacus Gym contamos con una extensión bastante amplia en el estado de Guanajuato.</p>
+      <br>
+      <div class="row">
+        <!-- <div class="col-md-3 mb-4">
+          <div class="card">
+            <div class="card-body bg-black text-white">
+              <h5 class="card-title">ISO 27001</h5>
+              <p class="card-text">Un estándar de seguridad que especifica los requisitos para establecer, implementar, mantener y mejorar un Sistema de Gestión de Seguridad de la Información.</p>
+            </div>
+          </div>
+        </div> -->
+        <div class="col-md-6 mb-6">
+          <div class="card">
+            <div class="card-body bg-black text-white">
+              <h5 class="card-title">ISO 17799</h5>
+              <p class="card-text">Un código de buenas prácticas para la gestión de la seguridad de la información, enfocado en los controles de seguridad que se deben implementar.</p>
+              <a href="#" class="card-link">Saber Mas...</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Ley de propiedad industrial Section -->
+  <section id="team" class="py-5 text-center bg-white text-dark">
+    <div class="container">
+      <h2 class="display-4 mb-4">Ley de propiedad industrial.</h2>
+      <p class="lead">aqui va texto</p>
+      <br>
+      <div class="row">
+        <div class="col-md-3 mb-4">
+          <div class="card">
+            <div class="card-body bg-black text-white">
+              <h5 class="card-title">ISO 27001</h5>
+              <p class="card-text">Un estándar de seguridad que especifica los requisitos para establecer, implementar, mantener y mejorar un Sistema de Gestión de Seguridad de la Información.</p>
+              <a href="#" class="card-link">Saber Mas...</a><
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 mb-4">
+          <div class="card">
+            <div class="card-body bg-black text-white">
+              <h5 class="card-title">ISO 17799</h5>
+              <p class="card-text">Un código de buenas prácticas para la gestión de la seguridad de la información, enfocado en los controles de seguridad que se deben implementar.</p>
+              <a href="#" class="card-link">Saber Mas...</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Ley federal de derechos de autor -->
+  <section id="lfda" class="py-5 text-center bg-white text-dark">
+    <div class="container">
+      <h2 class="display-4 mb-4">Ley federal de derechos de autor</h2>
+      <p class="lead">aqui va texto</p>
+      <br>
+    </div>
+  </section>
+    <!-- Código penal federal -->
+  <section id="cpf" class="py-5 text-center bg-white text-dark">
+    <div class="container">
+      <h2 class="display-4 mb-4">Código penal federal.</h2>
+      <p class="lead">aqui va texto</p>
+      <br>
+
+    </div>
+  </section>
+    <!-- estandares -->
+    <section id="estandares" class="py-5 text-center bg-white text-dark">
+        <div class="container">
+          <h2 class="display-4 mb-4">Estándares del manejo de la información.</h2>
+          <p class="lead">Aquí va texto sobre los estándares del manejo de la información.</p>
+          <br>
+          <div class="row">
+            <div class="col-md-3 mb-4">
+              <div class="card">
+                <div class="card-body text-white" style="background-color: #001f3f;">
+                  <h5 class="card-title">ISO 27001</h5>
+                  <p class="card-text"><strong>Qué es:</strong> Un estándar de seguridad que especifica los requisitos para establecer, implementar, mantener y mejorar un Sistema de Gestión de Seguridad de la Información.</p>
+                  <p class="card-text"><strong>Para qué sirve:</strong> Ayuda a proteger la información mediante el establecimiento de controles de seguridad adecuados y una gestión eficaz.</p>
+                  <a href="https://www.iso.org/standard/54534.html" class="card-link" target="_blank">Saber Más...</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 mb-4">
+              <div class="card">
+                <div class="card-body text-white" style="background-color: #001f3f;">
+                  <h5 class="card-title">ISO 17799</h5>
+                  <p class="card-text"><strong>Qué es:</strong> Un código de buenas prácticas para la gestión de la seguridad de la información, enfocado en los controles de seguridad que se deben implementar.</p>
+                  <p class="card-text"><strong>Para qué sirve:</strong> Ofrece directrices y recomendaciones para implementar controles de seguridad en la organización.</p>
+                  <a href="https://es.wikipedia.org/wiki/ISO_17799" class="card-link" target="_blank">Saber Más...</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 mb-4">
+              <div class="card">
+                <div class="card-body text-white" style="background-color: #001f3f;">
+                  <h5 class="card-title">COBIT</h5>
+                  <p class="card-text"><strong>Qué es:</strong> Un marco para el desarrollo, control y gobernanza de la gestión de TI, con el fin de alinear la tecnología con los objetivos del negocio.</p>
+                  <p class="card-text"><strong>Para qué sirve:</strong> Facilita la gestión de TI mediante el establecimiento de buenas prácticas y controles.</p>
+                  <a href="https://es.wikipedia.org/wiki/COBIT" class="card-link" target="_blank">Saber Más...</a>
+
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 mb-4">
+              <div class="card">
+                <div class="card-body text-white" style="background-color: #001f3f;">
+                  <h5 class="card-title">NIST</h5>
+                  <p class="card-text"><strong>Qué es:</strong> Un conjunto de estándares y directrices desarrollados por el Instituto Nacional de Estándares y Tecnología de EE.UU. para la seguridad de la información.</p>
+                  <p class="card-text"><strong>Para qué sirve:</strong> Proporciona directrices y estándares para mejorar la seguridad de la información y proteger los sistemas.</p>
+                  <a href="https://www.nist.gov/cyberframework" class="card-link" target="_blank">Saber Más...</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 mb-4">
+              <div class="card">
+                <div class="card-body text-white" style="background-color: #001f3f;">
+                  <h5 class="card-title">ITIL</h5>
+                  <p class="card-text"><strong>Qué es:</strong> Un conjunto de prácticas para la gestión de servicios de TI, enfocado en la alineación de servicios de TI con las necesidades del negocio.</p>
+                  <p class="card-text"><strong>Para qué sirve:</strong> Mejora la gestión de los servicios de TI mediante un enfoque basado en procesos y la mejora continua.</p>
+                  <a href="https://es.wikipedia.org/wiki/ITIL" class="card-link" target="_blank">Saber Más...</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      
+      <!-- Modal de Aviso de Privacidad -->
+  <div class="modal fade" id="avisoModal" tabindex="-1" aria-labelledby="avisoModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="avisoModalLabel">Aviso de Privacidad</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>En Spartacus Gym, respetamos su privacidad y estamos comprometidos con la protección de sus datos personales. Este aviso describe cómo manejamos su información...</p>
+          <!-- Aquí puedes añadir el contenido completo del aviso de privacidad -->
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!-- Footer -->
+    <footer class=" text-white text-center py-3" style="background-color: #001f3f;">
+        <p class="mb-0">Desarrollado por Adrian Morales López y Citlali Anaid Limas Maya | Grupo: GIDS5072 | Todos los derechos reservados</p>
+        <p><a href="#" data-bs-toggle="modal" data-bs-target="#avisoModal" class="text-white">Aviso de privacidad</a></p>
+      </footer>
+      
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="scripts.js"></script>
+</body>
+</html>
